@@ -741,7 +741,7 @@ for variabilis in range(chordis):     # строки
                     f.write(char.upper())    # увеличение и вывод символа путем замены ! на вводимый символ
                 else:
                     f.write(' ')                          # разделение символов
-            f.write(' ')
+            f.write(' ')                     # отступ перед новой буквой или иному символом
     f.write('\n')               # переход на новую строку в chordis
 
 print('\nLook the result in illud.txt :)')
